@@ -1,0 +1,85 @@
+html {
+   
+  background-size: cover;
+}
+
+h3 {
+  margin: 30px 0;
+}
+
+body {
+  background-color: inherit;
+  height: 100vh;
+}
+
+@media (max-width:575.98px) {
+  form {
+       width: 100%;
+  }
+  
+}
+
+.password{
+   display: flex;
+   flex-direction: row;
+}
+
+i {
+  margin-left: -20px; 
+
+  cursor: pointer;
+  padding-top: 13px;
+}
+
+
+
+
+
+section.productive{
+  height: 90vh;
+  margin: 40px 0;
+}
+
+.flex-container{
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+
+.flex-right{
+  margin-left: 30px;
+
+}
+
+.flex-right h2{
+  max-width: 250px;
+  color: white;
+  font-size: 1.9rem;
+  font-family: 'Raleway', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.flex-right p{
+  color: white;
+  max-width: 450px;
+  margin-top: 20px;
+  font-family: 'Open Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.flex-right .mg-bt-20{
+  margin-bottom: 20px;
+}
+.flex-right a{
+  border-bottom: 1px solid hsl(176, 68%, 64%);
+  padding-bottom: 3px;
+  color: hsl(176, 68%, 64%);
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+
+}
+.flex-right a img{
+  margin-left: 3px;
+}
