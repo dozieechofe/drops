@@ -1,0 +1,36 @@
+html {
+   
+  background-size: cover;
+}
+
+h3 {
+  margin: 30px 0;
+}
+
+body {
+  background-color: inherit;
+  height: 100vh;
+}
+
+@media (max-width:575.98px) {
+  form {
+       width: 100%;
+  }
+  
+}
+
+.password{
+   display: flex;
+   flex-direction: row;
+}
+
+i {
+  margin-left: -20px; 
+
+  cursor: pointer;
+  padding-top: 13px;
+}
+
+
+
+

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Drops</title>
+</head>
+<body>
+
+    
+<section class="wrapper">
+    <header>
+        <img src="./drop-images/Untitled (5).png" class="logo">
+        <nav>
+            <ul id="sidebar">
+                <div class="links">
+                    <button><a href="#">Trading</a></button>
+                    <button><a href="#">Pricing</a></button>
+                    
+                <div class="company">
+                    <button>Company
+                        <img src="./icon-arrow-down.svg">
+                    </button>
+                    <ul>
+                        <li><a href="#">History</a></li>
+                        <li><a href="#">Our Team</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                </div>
+                <div class="ctas">
+                    <a href="./login.html" class="cta cta-1">Login</a>
+                    <a href="./register.html" class="cta-2">Sign up</a>
+                </div>
+
+            </ul>
+        </nav>
+        <div class="container">
+            <span id="bar1"></span>
+            <span id="bar2"></span>
+            <span id="bar3"></span>
+        </div>
+    </header>
+    </section>
+    
+    <section class="hero">
+            <div class="intro-text">
+                <div class="title">
+                    <h1>Invest and build wealth for the future</h1>
+
+                </div>
+                <div class="subtitle">
+                    <p>Discover all the necessary tools and information required to boost money flow without fretting about the credibility of your investments</p>
+                </div>
+                <a href="#" class="cta-3">Request a demo
+                </a>
+                
+            </div>
+        <div class="right-item">
+            <img src="./drop-images/Untitled (1).png" alt="">
+        </div>
+
+    </section>
+</section>
+
+<section class="comments">
+    <div class="comment-section">
+        <div class="grid-items">
+
+
+            <div class="card-1 card">
+                <img src="./drop-images/Untitled (2).png" width="200" height="200">
+                <h4 class="description-header">Real-time information.</h4>
+                <p class="description-note">Get advice from renowned financial advisors around the globe.</p>
+              
+            </div>
+
+            <div class="card">
+                <img src="./drop-images/Untitled (3).png" width="200" height="200">
+                <h4 class="description-header">Analyse your financial status.</h4>
+                <p class="description-note">Choose opportunities akin to your financial capability.</p>
+
+            </div>
+
+
+            <div class="card-1 card">
+                <img src="./drop-images/Untitled (4).png" width="200" height="200">
+                <h4 class="description-header">Communication.</h4>
+                <p class="description-note">Interact with fellow investors on the web.</p>
+                
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<script>
+        const container = document.querySelector(".container");
+        const sidebar = document.querySelector("#sidebar");
+        container.addEventListener("click", function() {
+            container.classList.toggle("change")
+            sidebar.classList.toggle("push")
+        }) 
+    </script>
+</body>
+</html>
